@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Krishna Responsive Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="nav">
+    <h1>My Website</h1>
+    <button class="menu-toggle" aria-label="Toggle Menu">☰</button>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Service</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <section class="section">
+    <img src="krish.jpeg" alt="Lord Krishna">
+    <p>
+      Lord Krishna is a central figure in Hinduism, known for his teachings in the Bhagavad Gita
+      and his divine playfulness. He inspires millions through his life stories and wisdom.
+    </p>
+  </section>
+  <section class="section">
+    <img src="krishna img.jpeg" alt="Radha Krishna">
+    <p>
+      Radha Krishna represents eternal love and devotion. Their bond symbolizes the union of the
+      soul with the divine, celebrated in countless songs, dances, and festivals.
+    </p>
+  </section>
+
+  <script>
+    document.querySelector('.menu-toggle').addEventListener('click', function() {
+      document.querySelector('.nav ul').classList.toggle('show');
+    });
+  </script>
+</body>
+</html>
